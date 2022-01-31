@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow-x: hidden;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body class="font-konnect">
+    <!-- Header -->
+    <header class="w-full absolute z-50 py-4 lg:py-0 header">
+    <div class="container flex items-center justify-between">
+        <div class="logo">
+          <a href="index.html"><img src="assets/images/logo.svg" alt="" class="w-32 md:w-40 min-w-min"></a>
+        </div>
+  
+        <ul class="main-nav m-auto p-2 lg:p-0 bg-purple-900 lg:bg-transparent text-white hidden lg:flex">
+          <li class="lg:mr-1">
+            <a href="" class="text-white flex items-center text-xs md:text-base py-4 lg:py-8 px-2 mx-1 lg:mx-2 font-normal whitespace-nowrap hover:text-white border-b-4 border-transparent">Accueil</a>
+          </li>
+          <li class="lg:mr-1">
+            <a href="" class="text-white flex items-center text-xs md:text-base py-4 lg:py-8 px-2 mx-1 lg:mx-2 font-normal whitespace-nowrap hover:text-white border-b-4 border-transparent">Le concept</a>
+           
+          </li>
+          <li class="lg:mr-1">
+            <a href="#" class="text-white flex items-center text-xs md:text-base py-4 lg:py-8 px-2 mx-1 lg:mx-2 font-normal whitespace-nowrap hover:text-white border-b-4 border-transparent">Comment ça marche ?</a>
+          </li>
+          <li class="lg:mr-1">
+            <a href="" class="text-white flex items-center text-xs md:text-base py-4 lg:py-8 px-2 mx-1 lg:mx-2 font-normal whitespace-nowrap hover:text-white border-b-4 border-transparent">Notre interface</a>
+          </li>
+          <li class="lg:mr-1">
+            <a href="" class="text-white flex items-center text-xs md:text-base py-4 lg:py-8 px-2 mx-1 lg:mx-2 font-normal whitespace-nowrap hover:text-white border-b-4 border-transparent">Formations</a>
+          </li>
+          <li class="lg:mr-1">
+            <a href="" class="text-white flex items-center text-xs md:text-base py-4 lg:py-8 px-2 mx-1 lg:mx-2 font-normal whitespace-nowrap hover:text-white border-b-4 border-transparent">Contact</a>
+          </li>
+        </ul>
+  
+        <a href="#" class="text-white flex items-center text-xs md:text-base py-4 lg:py-8 mx-1 lg:mx-8 font-normal whitespace-nowrap hover:text-white border-b-4 border-transparent">S’inscrire</a>
+  
+        <a href="/contact.htm" class="square-btn rounded-full hidden bg-white lg:block border border-transparent text-bold text-base lg:py-3 py-2 px-3 md:px-4 lg:px-9 btn whitespace-nowrap"> <span class="font-normal linear-color"> Se connecter </span></a>
+ 
+    </div>
+    </header>
+
+    <!--BANNER-->
+
+    <section class="banner flex justify-end text-white h-large md:overflow-visible overflow-hidden md:pt-4 pt-40">
+        <div class="container">
+            <div class="banner-wrapper flex flex-wrap">
+                <div class="details md:w-2/5 w-full z-50 relative">
+                    <h4 class="md:text-xl sm:text-lg text-sm">MEDISCOOT</h4>
+                    <h2 class="xl:text-7xl md:text-5xl sm:text-3xl text-2xl font-semibold md:leading-10 leading-normal md:pt-6 pt-3 md:pb-7 pb-3">La E-Medecine c’est maintenant</h2>
+                    <p class="lg:text-xl md:text-lg sm:text-base text-sm md:leading-9 leading-normal">We provides the highest quality, on-site oral health care services to Schools, Corporate and Aged care Clients with the simple objective.</p>
+                    <div class="form flex w-full md:h-16 h-12 relative md:mt-14 mt-8">
+                        <input type="text" class="w-full md:pl-14 pl-10 bg-primary rounded-full text-white placeholder-white outline-none md:text-base text-xs" name="" id="" placeholder="Enter your Email Address"> 
+                        <img src="assets/images/mail.svg" class="absolute left-0 top-1/2 -translate-y-2/4 pl-4 md:w-auto w-8" alt="">
+                        <a href="/contact.htm" class="border-brown absolute mr-4 right-0 top-1/2 -translate-y-2/4 border rounded-full text-black bg-white lg:block font-normal text-sm lg:py-3 py-1 px-3 md:px-4 lg:px-9 btn whitespace-nowrap"> <span class="linear-color md:text-base text-xs"> CONTACT US </span></a>
+                    </div>
+                </div>
+                <div class="picture md:w-3/5 w-full">
+                    <img src="assets/images/banner_user.png" class="xl:absolute mx-auto	bottom-0 md:mt-0 mt-8" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--COMPANY LOGO-->
+
+    <section class="company-logo md:mt-6 mt-8">
+        <div class="container">
+            <div class="logos-wrapper flex justify-between md:flex-nowwrap flex-wrap">
+                <div class="picture md:w-auto w-1/3">
+                    <img src="assets/images/vector.svg" class="md:w-auto w-40" alt="">
+                </div>
+                <div class="picture md:w-auto w-1/3">
+                    <img src="assets/images/circle.svg" class="md:w-auto w-40" alt="">
+                </div>
+                <div class="picture md:w-auto w-1/3">
+                    <img src="assets/images/aver.svg" class="md:w-auto w-40" alt="">
+                </div>
+                <div class="picture md:w-auto w-1/3">
+                    <img src="assets/images/amara.svg" class="md:w-auto w-40" alt="">
+                </div>
+                <div class="picture md:w-auto w-1/3">
+                    <img src="assets/images/foxhub.svg" class="md:w-auto w-40" alt="">
+                </div>
+                <div class="picture md:w-auto w-1/3">
+                    <img src="assets/images/idea.svg" class="md:w-auto w-40" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONCEPT -->
+
+    <section class="concept lg:pt-28 md:pt-24 sm:pt-20 pt-16 md:mt-0 mt-8">
+        <div class="container">
+            <div class="concept-wrapper flex md:nowwrap flex-wrap items-center">
+                <div class="picture md:w-2/4 w-full">
+                    <img src="assets/images/concept-pic.png" class="md:h-auto h-72 md:mx-0 mx-auto" alt="">
+                </div>
+                <div class="details md:w-2/4 w-full md:text-left text-center md:mt-0 mt-4">
+                    <h4 class="md:text-xl sm:text-lg text-sm"> <span class="linear-color font-medium uppercase tracking-wider"> Le concept </span></h4>
+                    <h2 class="text-dark xl:text-6xl lg:text-5xl md:text-3xl sm:text-4xl text-2xl font-semibold md:leading-10 leading-normal md:pt-5 pt-3 md:pb-6 pb-3">Une télé-médecine optimisée et humaine.</h2>
+                    <p class="text-bluelight md:text-lg sm:text-base text-sm md:leading-6 leading-normal md:w-3/4 w-full">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English.</p>
+                    <p class="pt-8 text-bluelight md:text-lg sm:text-base text-sm md:leading-6 leading-normal md:w-3/4 w-full"> It is a long established fact that a reader will be distracted established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    <div class="actions">
+                        <a href="" class="linear-back inline-block border rounded-full text-bold md:text-base text-sm lg:py-4 py-2 px-4 md:px-4 lg:px-11 btn whitespace-nowrap md:mt-12 mt-8 font-semibold text-white">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--COMMENTS--> 
+
+    <section class="comments lg:pt-20 sm:pt-16 pt-12 md:mt-0 mt-8">
+        <div class="container">
+            <div class="comments-content">
+                <h4 class="text-center md:text-xl sm:text-lg text-sm"> <span class="linear-color font-medium uppercase tracking-wider">Comment ça marche? </span> </h4>
+                <h2 class="text-center mx-auto md:w-3/5 w-full text-dark xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-semibold md:leading-10 leading-normal md:pt-5 pt-3 md:pb-6 pb-3">Une télé-médecine optimisée et humaine.</h2>
+               
+                <div class="small-div back-img md:mt-14 mt-8 md:pt-11 pt-6 md:pb-20 pb-12 bg-cover bg-no-repeat bg-center mx-auto flex flex-col justify-between h-medium" style="background-image:url(assets/images/bg-img.png);"> 
+                  <div class="top-area flex justify-between items-center md:px-12 px-6">
+                      <div class="picture flex items-center">
+                          <div>
+                            <img src="assets/images/Doctor-img.png" class="md:w-auto w-14" alt="">
+                          </div>
+                          <span class="text-dark font-semibold pl-3">hello</span>
+                      </div>
+                      <div class="picture">
+                        <img src="assets/images/Patient-img.png" class="md:w-auto w-14" alt="">
+                    </div>
+                  </div>
+                  <div class="bottom-area">
+                      <div class="flex justify-center">
+                          <button class="ml-4">
+                            <img src="assets/images/Zoom.svg" class="md:w-auto w-10" alt="">
+                          </button>
+                          <button class="ml-4">
+                            <img src="assets/images/Mute.svg" class="md:w-auto w-10" alt="">
+                        </button>
+                        <button class="ml-4">
+                            <img src="assets/images/Logout.svg" class="md:w-auto w-10" alt="">
+                        </button>
+                        <button class="ml-4">
+                            <img src="assets/images/videoo.svg" class="md:w-auto w-10" alt="">
+                        </button>
+                        <button class="ml-4">
+                            <img src="assets/images/Setting.svg" class="md:w-auto w-10" alt="">
+                        </button>
+                      </div>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--SERVICES -->  
+    
+    <section class="services lg:mt-40 md:mt-24 mt-16">
+        <div class="container">
+            <div class="services-content w-full mx-auto flex xl:flex-nowwrap flex-wrap justify-between small-div text-center">
+                <div class="service-box lg:w-1/4 md:w-1/3 sm:w-2/4 lg:mb-0 mb-4 w-full pr-4">
+                    <div class="bg-white service-shadow-box py-7 text-center ">
+                    <div class="number">
+                        <div class="border-number border-gradient">
+                            <span class="gradient-color lg:text-4xl	md:text-3xl sm:text-2xl text-xl font-bold">01</span>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h4 class="md:text-2xl sm:text-xl text-lg text-dark font-semibold py-4">Lorem Ipsum color</h4>
+                        <p class="md:text-base text-sm md:leading-6 leading-normal text-bluelight_200 font-normal md:px-0 px-2">normal distribution of letters, as opposed to using ‘Content here</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="service-box lg:w-1/4 md:w-1/3 sm:w-2/4 md:mb-0 mb-4 w-full pr-4">
+                    <div class="bg-white linear-back py-7 text-center rounded-lg">
+                    <div class="number">
+                        <div class="border-number border-gradient border-white">
+                            <span class="lg:text-4xl md:text-3xl text-white sm:text-2xl text-xl font-bold">01</span>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h4 class="md:text-2xl sm:text-xl text-lg text-white font-semibold py-4">Lorem Ipsum color</h4>
+                        <p class="md:text-base text-sm md:leading-6 leading-normal text-white font-normal md:px-0 px-2">normal distribution of letters, as opposed to using ‘Content here</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="service-box lg:w-1/4 md:w-1/3 sm:w-2/4 md:mb-0 mb-4 w-full pr-4">
+                    <div class="bg-white service-shadow-box py-7 text-center ">
+                    <div class="number">
+                        <div class="border-number border-gradient">
+                            <span class="gradient-color lg:text-4xl	md:text-3xl sm:text-2xl text-xl font-bold">01</span>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h4 class="md:text-2xl sm:text-xl text-lg text-dark font-semibold py-4">Lorem Ipsum color</h4>
+                        <p class="md:text-base text-sm md:leading-6 leading-normal text-bluelight_200 font-normal md:px-0 px-2">normal distribution of letters, as opposed to using ‘Content here</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="service-box lg:w-1/4 md:w-1/3 sm:w-2/4 md:mb-0 mb-4 w-full pr-4 ">
+                    <div class="bg-white service-shadow-box py-7 text-center ">
+                    <div class="number">
+                        <div class="border-number border-gradient">
+                            <span class="gradient-color lg:text-4xl	md:text-3xl sm:text-2xl text-xl font-bold">01</span>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h4 class="md:text-2xl sm:text-xl text-lg text-dark font-semibold py-4">Lorem Ipsum color</h4>
+                        <p class="md:text-base text-sm md:leading-6 leading-normal text-bluelight_200 font-normal md:px-0 px-2">normal distribution of letters, as opposed to using ‘Content here</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTERFACES -->
+
+    <section class="interfaces mt-20 bg-cover bg-no-repeat bg-center flex items-center h-xlarge linear-back2" >
+        <div class="container">
+            <div class="interfaces-content relative z-20">
+                <div class="details md:w-2/4 w-full">
+                    <h4 class="md:text-xl sm:text-lg text-sm text-white font-medium tracking-wider">Lorem ipsum color delta esto</h4>
+                    <h2 class="lg:text-6xl text-white md:text-5xl sm:text-4xl text-2xl font-semibold md:leading-10 leading-normal pt-5 pb-6">Une télé-médecine optimisée et humaine.</h2>
+                    <div class="grid-section flex md:flex-nowwrap flex-wrap md:mt-20 mt-12">
+                        <div class="md:w-2/4 w-full md:pr-14 pr-0 pb-11">
+                            <div class="picture">
+                                <img src="assets/images/availability.svg" alt="">
+                            </div>
+                            <div class="info text-white">
+                                <h4 class="lg:text-2xl md:text-xl text-lg font-semibold pt-6 pb-4">24/7 availability</h4>
+                                <p class="font-normal md:text-lg sm:text-base text-sm md:leading-6 leading-normal">Get exceptional customer support from an award-winning team that’s dedicated to your success.</p>
+                            </div>
+                        </div>
+                        <div class="md:w-2/4 w-full md:pr-14 pr-0 pb-11">
+                            <div class="picture">
+                                <img src="assets/images/coverage.svg" alt="">
+                            </div>
+                            <div class="info text-white">
+                                <h4 class="lg:text-2xl md:text-xl text-lg font-semibold pt-6 pb-4">5G coverage</h4>
+                                <p class="font-normal md:text-lg sm:text-base text-sm md:leading-6 leading-normal">Get exceptional customer support from an award-winning team that’s dedicated to your success.</p>
+                            </div>
+                        </div>
+                        <div class="md:w-2/4 w-full md:pr-14 pr-0 pb-11">
+                            <div class="picture">
+                                <img src="assets/images/nationwide.svg" alt="">
+                            </div>
+                            <div class="info text-white">
+                                <h4 class="lg:text-2xl md:text-xl text-lg font-semibold pt-6 pb-4">nationwide</h4>
+                                <p class="font-normal md:text-lg sm:text-base text-sm md:leading-6 leading-normal">Get exceptional customer support from an award-winning team that’s dedicated to your success.</p>
+                            </div>
+                        </div>
+                        <div class="md:w-2/4 w-full md:pr-14 pr-0">
+                            <div class="picture">
+                                <img src="assets/images/security.svg" alt="">
+                            </div>
+                            <div class="info text-white">
+                                <h4 class="lg:text-2xl md:text-xl text-lg font-semibold pt-6 pb-4">IT security</h4>
+                                <p class="font-normal md:text-lg sm:text-base text-sm md:leading-6 leading-normal">Get exceptional customer support from an award-winning team that’s dedicated to your success.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!---FORMATIONS-->
+
+      <section class="formations">
+        <div class="container">
+            <div class="formation-wrapper flex md:flex-nowrap flex-wrap">
+                <div class="formation-box md:w-2/4 w-full">
+                    <div class="details">
+                        <h4> <span class="linear-color font-medium uppercase tracking-wider">Lorem ipsum</span> </h4>
+                        <h2 class="text-dark lg:text-6xl md:text-5xl sm:text-4xl text-2xl font-semibold md:leading-10 leading-normal pt-5 pb-6"> Nos formations</h2>
+                        <p class="font-normal md:text-lg sm:text-base text-sm md:leading-6 leading-normal text-bluelight">It is a long established fact that a reader will be distracted established fact that a reader.</p>
+                        <div class="tabs-area">
+                            <div id="tabs" class="inline-flex flex-col w-full px-1 pt-2">
+                                <div class="flex flex-col justify-center items-center my-4">
+                                    <div class="bg-white px-4 text-gray-800 font-semibold py-2 -mb-px">
+                                        <a id="default-tab" href="#first" class="h-40 w-full">
+                                            <div class="flex" id="firstly">
+                                                <div class="picture">
+                                                    <img src="assets/images/tab1.svg" alt="">
+                                                </div>
+                                                <div class="info">
+                                                    <h4>Auxiliaire de santé</h4>
+                                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layouble content of a page when ble content of a page when t.</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="bg-white px-4 text-gray-800 font-semibold py-2 -mb-px h-40 w-full">
+                                        <a id="default-tab" href="#second"  class="h-40 w-full">
+                                            <div class="flex">
+                                                <div class="picture">
+                                                    <img src="assets/images/tab1.svg" alt="">
+                                                </div>
+                                                <div class="info">
+                                                    <h4>Auxiliaire de santé</h4>
+                                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layouble content of a page when ble content of a page when t.</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab-contents" class="w-2/4 w-full">
+                    <div id="first" class="p-4 h-10">
+                      <div class="picture">
+                          <img src="assets/images/fomation.png" alt="">
+                      </div>
+                    </div>
+                    <div id="second" class="hidden p-4">
+                        <div class="picture">
+                            <img src="assets/images/bg-section2.png" alt="">
+                        </div>
+                    </div>
+                
+                  </div>
+                 <!-- Tab Contents -->
+            </div>
+        </div>
+    </section>
+
+    <!---FORMATIONS-->
+
+ 
+
+    <!--FOOTER-->
+
+    <section class="footer">
+        <div class="container">
+            <div class="footer-wrapper relative z-50">
+                <div class="footer-top sm:text-left text-center lg:pt-52 md:pt-44 sm:pt-40 pt-28 text-white flex xl:flex-nowwrap flex-wrap">
+                    <div class="lg:w-1/4 md:w-1/3 sm:w-2/4 w-full md:mb-0 mb-4">
+                        <div class="logo">
+                            <a href=""> <img src="assets/images/logo.svg" class="sm:mx-0 mx-auto" alt=""> </a>
+                        </div>
+                        <div class="social-icons flex mt-12 sm:justify-start justify-center">
+                            <a href="">
+                                <img src="assets/images/facebook.svg" alt="">
+                            </a>
+                            <a href="" class="ml-2">
+                                <img src="assets/images/Instagram.svg" alt="">
+                            </a>
+                            <a href="" class="ml-2">
+                                <img src="assets/images/Twitter.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/4 md:w-1/3 sm:w-2/4 w-full md:mb-0 mb-4">
+                        <h4 class="font-semibold lg:text-2xl md:text-xl sm:text-lg text-sm pb-9">Quick Link</h4>
+                        <ul>
+                            <li class="lg:text-lg text-sm font-normal pb-3"><a href=""> Le concept</a></li>
+                            <li class="lg:text-lg text-sm font-normal pb-3"><a href="">Comment ça marche</a></li>
+                            <li class="lg:text-lg text-sm font-normal pb-3"><a href="">Notre interface</a></li>
+                            <li class="lg:text-lg text-sm font-normal pb-3"><a href="">Nos formations</a></li>
+                        </ul>
+                    </div>
+                    <div class="lg:w-1/4 md:w-1/3 sm:w-2/4 w-full md:mb-0 mb-4">
+                        <h4 class="font-semibold lg:text-2xl md:text-xl sm:text-lg text-sm pb-9">Contact Info.</h4>
+                        <ul>
+                            <li class="lg:text-lg text-sm font-normal pb-3"><a href="" class="flex sm:justify-start justify-center"><img src="assets/images/phone-1.svg" class="mr-2" alt="">0666 66 66 66</a></li>
+                            <li class="lg:text-lg text-sm font-normal pb-3"><a href="" class="flex sm:justify-start justify-center"><img src="assets/images/email.svg" class="mr-2" alt="">contact@mediscoot.com</a></li>
+                            <li class="lg:text-lg text-sm font-normal pb-3"><a href="" class="flex sm:justify-start justify-center"><img src="assets/images/phone-1.svg" class="mr-2" alt="">07 Rue des Yvelins  <br> Porte des Lilas, Paris 75000</a></li>
+                        </ul>
+                    </div>
+                    <div class="lg:w-1/4 md:w-1/3 sm:w-2/4 w-full md:mb-0 mb-4">
+                        <h4 class="font-semibold lg:text-2xl md:text-xl sm:text-lg text-sm pb-9">Qui sommes-nous ?</h4>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layouble content of a page when ble content of a page whent.</p>
+                    </div>
+                </div>
+                <div class="footer-bottom text-center border-opacity lg:mt-20 md:mt-16 mt-10">
+                    <p class="md:text-xl sm:text-lg text-sm text-white py-4">@2021 <span class="secondary-300 font-bold px-3"> MediScoot.com </span>all right reserved .</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    
+    
+    <!-- Tabs -->
+
+   
+
+      <script>
+
+    let tabsContainer = document.querySelector("#tabs");
+    console.log()
+
+let tabTogglers = tabsContainer.querySelectorAll("#tabs a");
+
+console.log(tabTogglers);
+
+tabTogglers.forEach(function(toggler) {
+  toggler.addEventListener("click", function(e) {
+    e.preventDefault();
+
+    let tabName = this.getAttribute("href");
+
+    let tabContents = document.querySelector("#tab-contents");
+
+    for (let i = 0; i < tabContents.children.length; i++) {
+        console.log(tabContents.children.length)
+        console.log(tabTogglers[i])
+      
+      tabTogglers[i].parentElement.classList.remove("border-t", "border-r", "border-l", "-mb-px", "bg-white");  tabContents.children[i].classList.remove("hidden");
+      if ("#" + tabContents.children[i].id === tabName) {
+          console.log(tabContents.children[i].id)
+        continue;
+      }
+      tabContents.children[i].classList.add("hidden");
+      
+    }
+    e.target.parentElement.classList.add("border-t", "border-r", "border-l", "-mb-px", "bg-white");
+  });
+});
+
+
+
+    </script>
+    
+</body>
+</html>
